@@ -1,0 +1,66 @@
+@font-face{
+	font-family: Charlemagne;
+	src: url('charlemagne-std.otf');
+	font-weight: normal;
+	font-style: normal;
+}
+.dis-n{
+	display: none;
+}
+.dis-b{
+	display: block;
+}
+
+#inicio p{
+
+	width: 50%;
+	background-size: 100%;
+	font-size: 1.5rem;
+	text-align: justify;
+	margin: auto;
+	background-color:rgba(255, 255, 255, 0.6) ;
+	border-radius: 1rem;
+	padding: 0.5rem;
+}
+svg{
+	font-family: Charlemagne;
+}
+b{
+	color: red;
+}
+button{
+	background-color: transparent;
+	border-color: transparent;
+
+}
+button img{
+	width: 120%;
+}
+button img:hover{
+	width: 140%;
+}
+body{
+	background-image: url("image 2.png");
+	background-size: 100%;
+	text-align: center;
+	font-family: Charlemagne;
+}
+h1{
+	font-size: 2.5rem;
+}
+div{
+	margin: auto;
+
+}
+.titulo{
+	font-size: 2rem;
+	color: red;
+	font-weight: bolder;
+}
+#rey_caballero,#vasallos_campesinos,#nobleza_iglesia,#distribucion, #explicacion{
+	width: 55%;
+	
+	font-size: 1.5rem;
+	background-color:rgba(255, 255, 255, 0.6) ;
+	padding: 0.5rem;
+}
