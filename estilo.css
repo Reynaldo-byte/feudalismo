@@ -71,9 +71,12 @@ div{
 	font-weight: bolder;
 }
 #rey_caballero,#vasallos_campesinos,#nobleza_iglesia,#distribucion, #explicacion{
-	width: 55%;
 	
-	font-size: 1.5rem;
+	
+	
 	background-color:rgba(255, 255, 255, 0.6) ;
 	padding: 0.5rem;
+}
+::-webkit-scrollbar {
+    display: none;
 }
