@@ -24,6 +24,7 @@
     @media only screen and (orientation:landscape) {
         #aviso-movil-horizontal { display:none; }
     }
+img{width: 60%;}
 #inicio p{
 
 	width: 50%;
@@ -34,6 +35,9 @@
 	background-color:rgba(255, 255, 255, 0.6) ;
 	border-radius: 1rem;
 	padding: 0.5rem;
+}
+::-webkit-scrollbar {
+    display: none;
 }
 svg{
 	font-family: Charlemagne;
