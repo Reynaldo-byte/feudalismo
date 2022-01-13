@@ -6,7 +6,12 @@
 		<title></title>
 		<link rel="stylesheet" type="text/css" href="estilo.css">
 	</head>
-<body>
+		<script type="text/javascript">
+		const audio = document.createElement("audio");
+audio.preload = "auto";
+audio.src = "72.mp3";
+	</script>
+<body onmouseover="audio.play();audio.loop="true">
 
 		<script src="DragDropTouch.js"></script>
 		<script src="Nueva Carpeta/script.js"></script>
@@ -23,7 +28,7 @@
 información acerca del feudalismo,  
 debes arrastrar las fichas de la 
 derecha hacia los cuadros vacíos del mapa conceptual hasta completarlo.
-Después encontraremos información acerca de la conformación de la sociedad en la edad media; pasa el mouse sobre los personajes para ver la descripción de la clase social en la que se encontraban.</p>
+Después encontraremos información acerca de la conformación de la sociedad en la edad media; da click sobre los personajes para ver la descripción de la clase social en la que se encontraban.</p>
 				<br>
 				<button id="avanzar" onclick="avanzar()"><img src="button 240002.png"></button>
 			</div>
